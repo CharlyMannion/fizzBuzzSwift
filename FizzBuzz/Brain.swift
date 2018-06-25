@@ -9,7 +9,25 @@
 import Foundation
 
 class Brain {
+    func isDivisibleByFifteen(number: Int) -> Bool {
+        if number % 15 == 0 {
+            return true
+        } else {
+            return false
+        }
+    }
     func isDivisibleByThree(number: Int) -> Bool {
-        return true
+        if number % 3 == 0 {
+            return true
+        } else {
+            return false
+        }
+    }
+    func isDivisibleByFive(number: Int) -> Bool {
+        if number % 5 == 0 {
+            return true
+        } else {
+            return false
+        }
     }
 }
