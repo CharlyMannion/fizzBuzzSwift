@@ -12,8 +12,9 @@
 		7E27800620E152D70071531C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E27800420E152D70071531C /* Main.storyboard */; };
 		7E27800820E152D80071531C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E27800720E152D80071531C /* Assets.xcassets */; };
 		7E27800B20E152D80071531C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E27800920E152D80071531C /* LaunchScreen.storyboard */; };
-		7E27801620E152D80071531C /* FizzBuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E27801520E152D80071531C /* FizzBuzzTests.swift */; };
+		7E27801620E152D80071531C /* BrainTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E27801520E152D80071531C /* BrainTest.swift */; };
 		7E27802120E152D90071531C /* FizzBuzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E27802020E152D90071531C /* FizzBuzzUITests.swift */; };
+		7E27802F20E153440071531C /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E27802E20E153440071531C /* Brain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +43,12 @@
 		7E27800A20E152D80071531C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E27800C20E152D80071531C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E27801120E152D80071531C /* FizzBuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E27801520E152D80071531C /* FizzBuzzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzTests.swift; sourceTree = "<group>"; };
+		7E27801520E152D80071531C /* BrainTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTest.swift; sourceTree = "<group>"; };
 		7E27801720E152D80071531C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E27801C20E152D80071531C /* FizzBuzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E27802020E152D90071531C /* FizzBuzzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzUITests.swift; sourceTree = "<group>"; };
 		7E27802220E152D90071531C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E27802E20E153440071531C /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				7E27800720E152D80071531C /* Assets.xcassets */,
 				7E27800920E152D80071531C /* LaunchScreen.storyboard */,
 				7E27800C20E152D80071531C /* Info.plist */,
+				7E27802E20E153440071531C /* Brain.swift */,
 			);
 			path = FizzBuzz;
 			sourceTree = "<group>";
@@ -110,7 +113,7 @@
 		7E27801420E152D80071531C /* FizzBuzzTests */ = {
 			isa = PBXGroup;
 			children = (
-				7E27801520E152D80071531C /* FizzBuzzTests.swift */,
+				7E27801520E152D80071531C /* BrainTest.swift */,
 				7E27801720E152D80071531C /* Info.plist */,
 			);
 			path = FizzBuzzTests;
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E27800320E152D70071531C /* ViewController.swift in Sources */,
+				7E27802F20E153440071531C /* Brain.swift in Sources */,
 				7E27800120E152D70071531C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E27801620E152D80071531C /* FizzBuzzTests.swift in Sources */,
+				7E27801620E152D80071531C /* BrainTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
