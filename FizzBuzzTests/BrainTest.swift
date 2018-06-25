@@ -9,7 +9,9 @@
 import XCTest
 @testable import FizzBuzz
 
-class FizzBuzzTests: XCTestCase {
+class BrainTests: XCTestCase {
+    
+    let brain = Brain()
     
     override func setUp() {
         super.setUp()
@@ -22,38 +24,49 @@ class FizzBuzzTests: XCTestCase {
     }
     
     func testIsDivisibleByThree(){
-        let brain = Brain()
         let result = brain.isDivisibleByThree(number: 3)
         XCTAssertEqual(result, true)
     }
     
     func testIsNotDivisibleByThree(){
-        let brain = Brain()
         let result = brain.isDivisibleByThree(number: 1)
         XCTAssertEqual(result, false)
     }
     
     func testIsDivisibleByFive() {
-        let brain = Brain()
         let result = brain.isDivisibleByFive(number: 5)
         XCTAssertEqual(result, true)
     }
     
     func testIsNotDivisibleByFive(){
-        let brain = Brain()
         let result = brain.isDivisibleByFive(number: 9)
         XCTAssertEqual(result, false)
     }
     
     func testIsDivisibleByFifteen() {
-        let brain = Brain()
         let result = brain.isDivisibleByFifteen(number: 15)
         XCTAssertEqual(result, true)
     }
     
     func testIsNotDivisibleByFifteen(){
-        let brain = Brain()
         let result = brain.isDivisibleByFifteen(number: 8)
         XCTAssertEqual(result, false)
+    }
+    
+    func testFizz(){
+        let result = brain.fizzBuzz(number: 3)
+        XCTAssertEqual(result, "fizz")
+    }
+    func testBuzz(){
+        let result = brain.fizzBuzz(number: 5)
+        XCTAssertEqual(result, "buzz")
+    }
+    func testFizzBuzz(){
+        let result = brain.fizzBuzz(number: 15)
+        XCTAssertEqual(result, "fizzbuzz")
+    }
+    func testNum(){
+        let result = brain.fizzBuzz(number: 2)
+        XCTAssertEqual(result, "2")
     }
 }

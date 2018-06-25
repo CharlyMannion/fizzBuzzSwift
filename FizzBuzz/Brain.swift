@@ -30,4 +30,15 @@ class Brain {
             return false
         }
     }
+    func fizzBuzz(number: Int) -> String {
+        if isDivisibleByFifteen(number: number) {
+            return "fizzbuzz"
+        } else if isDivisibleByThree(number: number) {
+            return "fizz"
+        } else if isDivisibleByFive(number: number){
+            return "buzz"
+        } else {
+            return "\(number)"
+        }
+    }
 }
